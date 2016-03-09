@@ -175,7 +175,7 @@ function updateWeek() {
 }
 
 // Update tweets initial values every 6 hours
-setInterval(updateWeek(), 21600000);
+setInterval(updateWeek, 21600000);
 
 var port = process.env.VCAP_APP_PORT || 3000;
 app.listen(port);
