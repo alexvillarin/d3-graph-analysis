@@ -1,0 +1,24 @@
+{
+  "name": "TwitterDataAnalisys",
+  "version": "1.0.1",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+	"cloudant": "^1.4.1",
+    "errorhandler": "~1.4.1",
+    "express": "~4.13.1",
+    "xmlhttprequest": "~1.8.0"
+  },
+  "engines": {
+    "node": ">=0.10.38"
+  },
+  "contributors": [
+    {
+      "name": "Alejandro Villarin",
+      "email": "avillari@es.ibm.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
