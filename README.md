@@ -1,6 +1,8 @@
 # d3-graph-analysis
 An app that shows the results of social media analysis
 
+You can see an example of the app running at: http://pruebasiocmalaga.au-syd.mybluemix.net/
+
 ## Running locally
 
   The application uses [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.com/) so you will have to download and install them as part of the steps below.
