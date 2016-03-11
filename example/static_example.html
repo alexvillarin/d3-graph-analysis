@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Twitter Activity</title>
+		<link rel="stylesheet" href="css/watson-bootstrap-dark.css"/>
+		<style>
+			.myTooltip {
+				background: #eee;
+				box-shadow: 0 0 5px #999999;
+				color: #333;
+				display: none;
+				font-size: 12px;
+				left: 39%;
+				padding: 10px;
+				position: absolute;
+				text-align: center;
+				top: 95px;
+				width: 80px;
+				z-index: 10;
+			}
+			.myLabel {
+				color: black;
+				font-weight: bold;
+			}
+			.legend {
+				font-size: 12px;
+			}
+			rect {
+				cursor: pointer;																							 
+				stroke-width: 2;
+			}
+			rect.disabled {																								 
+				fill: transparent !important;																 
+			}																															 
+			h1 {																														 
+				font-size: 14px;																							 
+				text-align: center;																					 
+			}
+		</style>
+	</head>
+	<body style="background-color:#E6E6FA">
+		<div class="col-sm-6" align="center">
+			<div class="row" style="padding: 0.5% 0px 0px 0px">
+				<div class="col-sm-6">
+					<h1 id="h11">Positive</h1>
+					<div id="chart1"></div>
+				</div>
+				<div class="col-sm-6">
+					<h1 id="h12">Neutral</h1>
+					<div id="chart2"></div>
+				</div>
+			</div>
+			<div class="row" style="padding: 4% 0px 0px 0px">
+				<div class="col-sm-6">
+					<h1 id="h13">Ambivalent</h1>
+					<div id="chart3"></div>
+				</div>
+				<div class="col-sm-6">
+					<h1 id="h14">Negative</h1>
+					<div id="chart4"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6" align="center" >
+			<div class="row" style="padding: 0.5% 0px 0px 0px">
+				<div id="lineChart" width="100%" height="410"></div>
+			</div>
+			<div class="row" style="padding: 3% 0px 0px 0px">
+				<div id="barchart" width="100%" height="410"></div>
+			</div>
+		</div>
+		<script src='https://d3js.org/d3.v3.min.js'></script>
+		<script src='script.js'></script>
+	</body>
+</html>
